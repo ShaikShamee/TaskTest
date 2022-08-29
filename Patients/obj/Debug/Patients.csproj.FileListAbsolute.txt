@@ -1,0 +1,9 @@
+D:\ProjectNet\Patients\bin\Debug\Patients.dll
+D:\ProjectNet\Patients\bin\Debug\Patients.pdb
+D:\ProjectNet\Patients\bin\Debug\Admin.dll
+D:\ProjectNet\Patients\bin\Debug\Admin.pdb
+D:\ProjectNet\Patients\obj\Debug\Patients.csproj.AssemblyReference.cache
+D:\ProjectNet\Patients\obj\Debug\Patients.csproj.CoreCompileInputs.cache
+D:\ProjectNet\Patients\obj\Debug\Patients.csproj.CopyComplete
+D:\ProjectNet\Patients\obj\Debug\Patients.dll
+D:\ProjectNet\Patients\obj\Debug\Patients.pdb

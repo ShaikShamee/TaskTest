@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hospital/1.0.0": {
+        "dependencies": {
+          "Admin": "1.0.0",
+          "Beds": "1.0.0",
+          "Doctors": "1.0.0",
+          "Patients": "1.0.0"
+        },
+        "runtime": {
+          "Hospital.dll": {}
+        }
+      },
+      "Admin/1.0.0": {
+        "runtime": {
+          "Admin.dll": {}
+        }
+      },
+      "Beds/1.0.0": {
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "runtime": {
+          "Beds.dll": {}
+        }
+      },
+      "Doctors/1.0.0": {
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "runtime": {
+          "Doctors.dll": {}
+        }
+      },
+      "Patients/1.0.0": {
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "runtime": {
+          "Patients.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hospital/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Beds/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Doctors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Patients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

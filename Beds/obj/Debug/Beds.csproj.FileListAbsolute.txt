@@ -1,0 +1,9 @@
+D:\ProjectNet\Beds\bin\Debug\Beds.dll
+D:\ProjectNet\Beds\bin\Debug\Beds.pdb
+D:\ProjectNet\Beds\bin\Debug\Admin.dll
+D:\ProjectNet\Beds\bin\Debug\Admin.pdb
+D:\ProjectNet\Beds\obj\Debug\Beds.csproj.AssemblyReference.cache
+D:\ProjectNet\Beds\obj\Debug\Beds.csproj.CoreCompileInputs.cache
+D:\ProjectNet\Beds\obj\Debug\Beds.csproj.CopyComplete
+D:\ProjectNet\Beds\obj\Debug\Beds.dll
+D:\ProjectNet\Beds\obj\Debug\Beds.pdb

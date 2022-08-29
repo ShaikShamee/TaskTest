@@ -1,0 +1,6 @@
+D:\ProjectNet\Admin\bin\Debug\Admin.dll
+D:\ProjectNet\Admin\bin\Debug\Admin.pdb
+D:\ProjectNet\Admin\obj\Debug\Admin.csproj.AssemblyReference.cache
+D:\ProjectNet\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
+D:\ProjectNet\Admin\obj\Debug\Admin.dll
+D:\ProjectNet\Admin\obj\Debug\Admin.pdb

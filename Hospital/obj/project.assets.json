@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Admin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Admin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admin.dll": {}
+        }
+      },
+      "Beds/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Beds.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Beds.dll": {}
+        }
+      },
+      "Doctors/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Doctors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctors.dll": {}
+        }
+      },
+      "Patients/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Admin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Patients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Patients.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admin/1.0.0": {
+      "type": "project",
+      "path": "../Admin/Admin.csproj",
+      "msbuildProject": "../Admin/Admin.csproj"
+    },
+    "Beds/1.0.0": {
+      "type": "project",
+      "path": "../Beds/Beds.csproj",
+      "msbuildProject": "../Beds/Beds.csproj"
+    },
+    "Doctors/1.0.0": {
+      "type": "project",
+      "path": "../Doctors/Doctors.csproj",
+      "msbuildProject": "../Doctors/Doctors.csproj"
+    },
+    "Patients/1.0.0": {
+      "type": "project",
+      "path": "../Patients/Patients.csproj",
+      "msbuildProject": "../Patients/Patients.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Admin >= 1.0.0",
+      "Beds >= 1.0.0",
+      "Doctors >= 1.0.0",
+      "Patients >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ProjectNet\\Hospital\\Hospital.csproj",
+      "projectName": "Hospital",
+      "projectPath": "D:\\ProjectNet\\Hospital\\Hospital.csproj",
+      "packagesPath": "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjectNet\\Hospital\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Shameema.Shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\ProjectNet\\Admin\\Admin.csproj": {
+              "projectPath": "D:\\ProjectNet\\Admin\\Admin.csproj"
+            },
+            "D:\\ProjectNet\\Beds\\Beds.csproj": {
+              "projectPath": "D:\\ProjectNet\\Beds\\Beds.csproj"
+            },
+            "D:\\ProjectNet\\Doctors\\Doctors.csproj": {
+              "projectPath": "D:\\ProjectNet\\Doctors\\Doctors.csproj"
+            },
+            "D:\\ProjectNet\\Patients\\Patients.csproj": {
+              "projectPath": "D:\\ProjectNet\\Patients\\Patients.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
